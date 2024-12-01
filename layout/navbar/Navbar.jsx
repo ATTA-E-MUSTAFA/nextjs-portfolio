@@ -4,7 +4,6 @@ import Link from "next/link";
 import { DiTechcrunch } from "react-icons/di";
 import { BsFillLightningChargeFill } from "react-icons/bs";
 import { TbBulbFilled } from "react-icons/tb";
-
 import MobileNavbar from "./SidebarMobile";
 import { NavbarMenu } from "./NavbarItems";
 import NavbarMobile from "./NavbarMobile";
@@ -49,7 +48,7 @@ const Navbar = () => {
       >
         {/* Name Logo */}
         <p className='text-gray-400 flex'>
-          <span className='text-lg font-bold'>SHIV</span> <DiTechcrunch />
+          <span className='text-lg font-bold'>PFP</span> <DiTechcrunch />
         </p>
         <div className='h-full flex gap-4'>
           {/* Navbar Links */}

@@ -66,17 +66,9 @@ const Intro = () => {
               </span>
             </p>
             <div className='mt-5 md:mt-10 flex gap-3'>
-              {/* Hire Me Button */}
-              <Link
-                className='text-white text-xl font-semibold rounded bg-red-400 hover:bg-red-500 px-2 py-1'
-                href={"#getInTouch"}
-              >
-                Hire me
-              </Link>
-              {/* Download CV Button */}
               <Link
                 className='text-xl font-semibold rounded border border-red-500 hover:text-white hover:bg-red-500 px-2 py-1'
-                href='https://drive.google.com/file/d/1uk-tv12y8PK-WrE4oX2xRtmSy4PUVSsE/view'
+                href='#'
                 target='_blank'
               >
                 Download CV
@@ -86,12 +78,16 @@ const Intro = () => {
 
           {/* Image */}
           <div
-            className={
-              "translate-x-[500px] transition-all opacity-0 duration-700 w-[180px] h-[300px] md:w-[240px] md:h-[400px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
-            }
-            ref={profileRef}
-            style={{ backgroundImage: "url(/images/male.png)" }}
-          />
+  className={
+    "translate-x-[500px] transition-all opacity-0 duration-700 w-[180px] h-[300px] md:w-[240px] md:h-[400px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
+  }
+  ref={profileRef}
+  style={{
+    backgroundImage: "url(/images/newget.jpg)",
+    backgroundPosition: "center", // Ensures the center of the image is shown
+    backgroundSize: "cover" // Ensures the image covers the container
+  }}
+/>
         </div>
       </section>
     </Fragment>

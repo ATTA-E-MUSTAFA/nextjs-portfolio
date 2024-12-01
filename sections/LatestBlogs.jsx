@@ -45,9 +45,6 @@ const LatestBlogs = () => {
                 </div>
               ))}
           </div>
-          <div className='ml-auto w-fit  mx-6 mt-8'>
-            <AnimatedButton />
-          </div>
         </div>
       </section>
     </Fragment>

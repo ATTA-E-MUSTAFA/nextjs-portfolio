@@ -8,19 +8,11 @@ export const NavbarMenu = [
         link: "#about",
     },
     {
-        name: "Tech Stack",
-        link: "#techStack",
+        name: "Blogs",
+        link: "#blogs",
     },
     {
-        name: "Education",
-        link: "#education",
-    },
-    {
-        name: "Experience",
-        link: "#experience",
-    },
-    {
-        name: "Project",
-        link: "#project",
-    },
+        name: "Contact",
+        link:"#contact",
+    }
 ];

@@ -12,7 +12,7 @@ const VirtualDom = () => {
       </Head>
 
       <Theme>
-        <BackTo backTo={"blogs"} />
+        <BackTo backTo={""} />
 
         <div className="layoutContainer">
           <div className="layoutBox1">
@@ -46,7 +46,7 @@ const VirtualDom = () => {
             </p>
           </div>
 
-          <div className="layoutBox2">&quot;Ram Ram&quot;</div>
+          <div className="layoutBox2">&quot;Bye&quot;</div>
         </div>
       </Theme>
     </Fragment>

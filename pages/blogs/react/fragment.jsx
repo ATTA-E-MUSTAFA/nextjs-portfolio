@@ -17,7 +17,7 @@ const MyFragment = () => {
       </Head>
 
       <Theme>
-        <BackTo backTo={"blogs"} />
+        <BackTo backTo={""} />
 
         <div className='layoutContainer'>
           <div className='layoutBox1'>

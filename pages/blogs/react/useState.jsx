@@ -17,7 +17,7 @@ const UseState = () => {
       </Head>
 
       <Theme>
-        <BackTo backTo={"blogs"} />
+        <BackTo backTo={""} />
 
         <div className='layoutContainer'>
           <div className='layoutBox1'>
@@ -50,11 +50,11 @@ const UseState = () => {
 
               <Syntax myDark={theme === "dark"} />
 
-              <p className='text-center my-3'>🙏 Dhanyawaad</p>
+              <p className='text-center my-3'>🙏 thanks</p>
             </div>
           </div>
 
-          <div className='layoutBox2'>Namaste</div>
+          <div className='layoutBox2'>Bye</div>
         </div>
       </Theme>
     </Fragment>

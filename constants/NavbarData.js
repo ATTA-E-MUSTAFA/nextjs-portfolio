@@ -12,11 +12,6 @@ export const NavbarData = [
         icon: <AiTwotoneHome />
     },
     {
-        name: "Skills",
-        link: "#skills",
-        icon: <FaLaptopCode />
-    },
-    {
         name: "Projects",
         link: "#projects",
         icon: <CgClapperBoard />
@@ -30,10 +25,5 @@ export const NavbarData = [
         name: "My Journey",
         link: "#myJourney",
         icon: <GiRailRoad />
-    },
-    {
-        name: "apps",
-        link: "#apps",
-        icon: <IoMdAppstore />
     }
 ]

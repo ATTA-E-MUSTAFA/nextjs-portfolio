@@ -17,7 +17,7 @@ const UseEffect = () => {
       </Head>
 
       <Theme>
-        <BackTo backTo={"blogs"} />
+        <BackTo backTo={""} />
 
         <div className='layoutContainer'>
           <div className='layoutBox1'>
@@ -47,7 +47,7 @@ const UseEffect = () => {
             <div className='text-center m-5 text-2xl'>❤️ Thank You 🙏</div>
           </div>
 
-          <div className='layoutBox2'>Pranam</div>
+          <div className='layoutBox2'>Bye</div>
         </div>
       </Theme>
     </Fragment>
