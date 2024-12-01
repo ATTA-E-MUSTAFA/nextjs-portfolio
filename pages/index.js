@@ -14,8 +14,12 @@ const Home = () => {
 
   return (
     <Fragment>
+      <Head>
+        <title>Mine Portfolio</title>
+      </Head>
       <div>
         <div>
+        
           {/* Desktop Navbar */}
           <Navbar />
           {/* Welcome Page */}

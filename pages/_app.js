@@ -1,5 +1,7 @@
 import "@/styles/globals.css"
 import "@/styles/animation.css"
+
+import Head from 'next/head';
 import "@/styles/cssGrid.css"
 import "@/styles/Home.module.css"
 import { Analytics } from "@vercel/analytics/react"
